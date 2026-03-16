@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon OS</title>
+    <style>
+        /* CSS Değişiklikleri */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Tam siyah arka plan */
+            color: #ffffff; /* Beyaz metin rengi */
+            /* Segoe UI Font Tanımlaması */
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden; /* Kaydırma çubuklarını gizle */
+        }
+
+        .content-wrapper {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Yeni Logo Görsel Stili */
+        .logo-image {
+            max-width: 300px; /* Logonun maksimum genişliği (istediğin gibi ayarla) */
+            height: auto; /* Oranı koru */
+            margin-bottom: 30px; /* Slogandan önceki boşluk */
+            /* İsteğe bağlı: Hafif bir parlama efekti logoyu öne çıkarır */
+            filter: drop-shadow(0 0 15px rgba(255,255,255,0.3));
+        }
+
+        .slogan {
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            color: #eeeeee;
+            letter-spacing: 0.5px;
+        }
+
+        .status {
+            font-size: 16px;
+            font-weight: 300;
+            color: #888888; /* Daha küçük ve sönük gri */
+            letter-spacing: 1px;
+        }
+
+        footer {
+            padding-bottom: 30px;
+            font-size: 12px;
+            color: #444444;
+            letter-spacing: 0.5px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-wrapper">
+        <img src="logo.svg" alt="Horizon OS Logo" class="logo-image">
+
+        <div class="slogan">Yeni Ufuklarda Gözüken Bir OS</div>
+
+        <div class="status">Çok yakında.</div>
+    </div>
+
+    <footer>
+        &copy; Horizon Developers 2026
+    </footer>
+
+</body>
+</html>
